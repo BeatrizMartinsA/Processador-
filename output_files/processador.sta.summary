@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clock'
+Slack : -110.355
+TNS   : -5943.271
+
+Type  : Slow 1200mV 85C Model Setup 'divfreq:clk|saida[0]'
+Slack : -5.548
+TNS   : -742.037
+
+Type  : Slow 1200mV 85C Model Hold 'divfreq:clk|saida[0]'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -128.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divfreq:clk|saida[0]'
+Slack : -1.000
+TNS   : -160.000
+
+Type  : Slow 1200mV 0C Model Setup 'clock'
+Slack : -98.477
+TNS   : -5299.861
+
+Type  : Slow 1200mV 0C Model Setup 'divfreq:clk|saida[0]'
+Slack : -4.948
+TNS   : -652.762
+
+Type  : Slow 1200mV 0C Model Hold 'divfreq:clk|saida[0]'
+Slack : 0.310
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -128.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divfreq:clk|saida[0]'
+Slack : -1.000
+TNS   : -160.000
+
+Type  : Fast 1200mV 0C Model Setup 'clock'
+Slack : -63.033
+TNS   : -3381.839
+
+Type  : Fast 1200mV 0C Model Setup 'divfreq:clk|saida[0]'
+Slack : -2.739
+TNS   : -358.685
+
+Type  : Fast 1200mV 0C Model Hold 'divfreq:clk|saida[0]'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -135.016
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divfreq:clk|saida[0]'
+Slack : -1.000
+TNS   : -160.000
+
+------------------------------------------------------------

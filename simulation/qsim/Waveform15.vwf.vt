@@ -1,0 +1,379 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "09/23/2020 17:31:23"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          mux_ula
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module mux_ula_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg ALUsrc;
+reg [31:0] dado_leitura2;
+reg [31:0] extensor;
+// wires                                               
+wire [31:0] saida;
+
+// assign statements (if any)                          
+mux_ula i1 (
+// port map - connection between master ports and signals/registers   
+	.ALUsrc(ALUsrc),
+	.dado_leitura2(dado_leitura2),
+	.extensor(extensor),
+	.saida(saida)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// ALUsrc
+initial
+begin
+	ALUsrc = 1'b0;
+	ALUsrc = #280000 1'b1;
+	ALUsrc = #480000 1'b0;
+end 
+// dado_leitura2[ 31 ]
+initial
+begin
+	dado_leitura2[31] = 1'b1;
+end 
+// dado_leitura2[ 30 ]
+initial
+begin
+	dado_leitura2[30] = 1'b1;
+end 
+// dado_leitura2[ 29 ]
+initial
+begin
+	dado_leitura2[29] = 1'b1;
+end 
+// dado_leitura2[ 28 ]
+initial
+begin
+	dado_leitura2[28] = 1'b1;
+end 
+// dado_leitura2[ 27 ]
+initial
+begin
+	dado_leitura2[27] = 1'b1;
+end 
+// dado_leitura2[ 26 ]
+initial
+begin
+	dado_leitura2[26] = 1'b1;
+end 
+// dado_leitura2[ 25 ]
+initial
+begin
+	dado_leitura2[25] = 1'b1;
+end 
+// dado_leitura2[ 24 ]
+initial
+begin
+	dado_leitura2[24] = 1'b1;
+end 
+// dado_leitura2[ 23 ]
+initial
+begin
+	dado_leitura2[23] = 1'b1;
+end 
+// dado_leitura2[ 22 ]
+initial
+begin
+	dado_leitura2[22] = 1'b1;
+end 
+// dado_leitura2[ 21 ]
+initial
+begin
+	dado_leitura2[21] = 1'b1;
+end 
+// dado_leitura2[ 20 ]
+initial
+begin
+	dado_leitura2[20] = 1'b1;
+end 
+// dado_leitura2[ 19 ]
+initial
+begin
+	dado_leitura2[19] = 1'b1;
+end 
+// dado_leitura2[ 18 ]
+initial
+begin
+	dado_leitura2[18] = 1'b1;
+end 
+// dado_leitura2[ 17 ]
+initial
+begin
+	dado_leitura2[17] = 1'b1;
+end 
+// dado_leitura2[ 16 ]
+initial
+begin
+	dado_leitura2[16] = 1'b1;
+end 
+// dado_leitura2[ 15 ]
+initial
+begin
+	dado_leitura2[15] = 1'b1;
+end 
+// dado_leitura2[ 14 ]
+initial
+begin
+	dado_leitura2[14] = 1'b1;
+end 
+// dado_leitura2[ 13 ]
+initial
+begin
+	dado_leitura2[13] = 1'b1;
+end 
+// dado_leitura2[ 12 ]
+initial
+begin
+	dado_leitura2[12] = 1'b1;
+end 
+// dado_leitura2[ 11 ]
+initial
+begin
+	dado_leitura2[11] = 1'b1;
+end 
+// dado_leitura2[ 10 ]
+initial
+begin
+	dado_leitura2[10] = 1'b1;
+end 
+// dado_leitura2[ 9 ]
+initial
+begin
+	dado_leitura2[9] = 1'b1;
+end 
+// dado_leitura2[ 8 ]
+initial
+begin
+	dado_leitura2[8] = 1'b1;
+end 
+// dado_leitura2[ 7 ]
+initial
+begin
+	dado_leitura2[7] = 1'b1;
+end 
+// dado_leitura2[ 6 ]
+initial
+begin
+	dado_leitura2[6] = 1'b1;
+end 
+// dado_leitura2[ 5 ]
+initial
+begin
+	dado_leitura2[5] = 1'b1;
+end 
+// dado_leitura2[ 4 ]
+initial
+begin
+	dado_leitura2[4] = 1'b1;
+end 
+// dado_leitura2[ 3 ]
+initial
+begin
+	dado_leitura2[3] = 1'b1;
+end 
+// dado_leitura2[ 2 ]
+initial
+begin
+	dado_leitura2[2] = 1'b1;
+end 
+// dado_leitura2[ 1 ]
+initial
+begin
+	dado_leitura2[1] = 1'b1;
+end 
+// dado_leitura2[ 0 ]
+initial
+begin
+	dado_leitura2[0] = 1'b1;
+end 
+// extensor[ 31 ]
+initial
+begin
+	extensor[31] = 1'b0;
+end 
+// extensor[ 30 ]
+initial
+begin
+	extensor[30] = 1'b0;
+end 
+// extensor[ 29 ]
+initial
+begin
+	extensor[29] = 1'b0;
+end 
+// extensor[ 28 ]
+initial
+begin
+	extensor[28] = 1'b0;
+end 
+// extensor[ 27 ]
+initial
+begin
+	extensor[27] = 1'b0;
+end 
+// extensor[ 26 ]
+initial
+begin
+	extensor[26] = 1'b0;
+end 
+// extensor[ 25 ]
+initial
+begin
+	extensor[25] = 1'b0;
+end 
+// extensor[ 24 ]
+initial
+begin
+	extensor[24] = 1'b0;
+end 
+// extensor[ 23 ]
+initial
+begin
+	extensor[23] = 1'b0;
+end 
+// extensor[ 22 ]
+initial
+begin
+	extensor[22] = 1'b0;
+end 
+// extensor[ 21 ]
+initial
+begin
+	extensor[21] = 1'b0;
+end 
+// extensor[ 20 ]
+initial
+begin
+	extensor[20] = 1'b0;
+end 
+// extensor[ 19 ]
+initial
+begin
+	extensor[19] = 1'b0;
+end 
+// extensor[ 18 ]
+initial
+begin
+	extensor[18] = 1'b0;
+end 
+// extensor[ 17 ]
+initial
+begin
+	extensor[17] = 1'b0;
+end 
+// extensor[ 16 ]
+initial
+begin
+	extensor[16] = 1'b0;
+end 
+// extensor[ 15 ]
+initial
+begin
+	extensor[15] = 1'b0;
+end 
+// extensor[ 14 ]
+initial
+begin
+	extensor[14] = 1'b0;
+end 
+// extensor[ 13 ]
+initial
+begin
+	extensor[13] = 1'b0;
+end 
+// extensor[ 12 ]
+initial
+begin
+	extensor[12] = 1'b0;
+end 
+// extensor[ 11 ]
+initial
+begin
+	extensor[11] = 1'b0;
+end 
+// extensor[ 10 ]
+initial
+begin
+	extensor[10] = 1'b0;
+end 
+// extensor[ 9 ]
+initial
+begin
+	extensor[9] = 1'b0;
+end 
+// extensor[ 8 ]
+initial
+begin
+	extensor[8] = 1'b0;
+end 
+// extensor[ 7 ]
+initial
+begin
+	extensor[7] = 1'b0;
+end 
+// extensor[ 6 ]
+initial
+begin
+	extensor[6] = 1'b0;
+end 
+// extensor[ 5 ]
+initial
+begin
+	extensor[5] = 1'b0;
+end 
+// extensor[ 4 ]
+initial
+begin
+	extensor[4] = 1'b0;
+end 
+// extensor[ 3 ]
+initial
+begin
+	extensor[3] = 1'b0;
+end 
+// extensor[ 2 ]
+initial
+begin
+	extensor[2] = 1'b0;
+end 
+// extensor[ 1 ]
+initial
+begin
+	extensor[1] = 1'b0;
+end 
+// extensor[ 0 ]
+initial
+begin
+	extensor[0] = 1'b0;
+end 
+endmodule
+

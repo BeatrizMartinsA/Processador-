@@ -1,0 +1,850 @@
+ -- Copyright (C) 2018  Intel Corporation. All rights reserved.
+ -- Your use of Intel Corporation's design tools, logic functions 
+ -- and other software and tools, and its AMPP partner logic 
+ -- functions, and any output files from any of the foregoing 
+ -- (including device programming or simulation files), and any 
+ -- associated documentation or information are expressly subject 
+ -- to the terms and conditions of the Intel Program License 
+ -- Subscription Agreement, the Intel Quartus Prime License Agreement,
+ -- the Intel FPGA IP License Agreement, or other applicable license
+ -- agreement, including, without limitation, that your use is for
+ -- the sole purpose of programming logic devices manufactured by
+ -- Intel and sold by Intel or its authorized distributors.  Please
+ -- refer to the applicable agreement for further details.
+ -- 
+ -- This is a Quartus Prime output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus Prime input file. This file cannot be used
+ -- to make Quartus Prime pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus Prime help.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- DNU           : Do Not Use. This pin MUST NOT be connected.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (1.2V).
+ -- VCCIO         : Dedicated power pin, which MUST be connected to VCC
+ --                 of its bank.
+ --                  Bank 1:       2.5V
+ --                  Bank 2:       2.5V
+ --                  Bank 3:       2.5V
+ --                  Bank 4:       2.5V
+ --                  Bank 5:       2.5V
+ --                  Bank 6:       2.5V
+ --                  Bank 7:       2.5V
+ --                  Bank 8:       2.5V
+ -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
+ --                  It can also be used to report unused dedicated pins. The connection
+ --                  on the board for unused dedicated pins depends on whether this will
+ --                  be used in a future design. One example is device migration. When
+ --                  using device migration, refer to the device pin-tables. If it is a
+ --                  GND pin in the pin table or if it will not be used in a future design
+ --                  for another purpose the it MUST be connected to GND. If it is an unused
+ --                  dedicated pin, then it can be connected to a valid signal on the board
+ --                  (low, high, or toggling) if that signal is required for a different
+ --                  revision of the design.
+ -- GND+          : Unused input pin. It can also be used to report unused dual-purpose pins.
+ --                  This pin should be connected to GND. It may also be connected  to a
+ --                  valid signal  on the board  (low, high, or toggling)  if that signal
+ --                  is required for a different revision of the design.
+ -- GND*          : Unused  I/O  pin. Connect each pin marked GND* directly to GND
+ --                  or leave it unconnected.
+ -- RESERVED      : Unused I/O pin, which MUST be left unconnected.
+ -- RESERVED_INPUT    : Pin is tri-stated and should be connected to the board.
+ -- RESERVED_INPUT_WITH_WEAK_PULLUP    : Pin is tri-stated with internal weak pull-up resistor.
+ -- RESERVED_INPUT_WITH_BUS_HOLD       : Pin is tri-stated with bus-hold circuitry.
+ -- RESERVED_OUTPUT_DRIVEN_HIGH        : Pin is output driven high.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- Pin directions (input, output or bidir) are based on device operating in user mode.
+ ---------------------------------------------------------------------------------
+
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+CHIP  "processador"  ASSIGNED TO AN: EP4CE30F29C6
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+VCCIO8                       : A2        : power  :                   : 2.5V    : 8         :                
+saida_mux_jumpreg[25]        : A3        : output : 2.5 V             :         : 8         : N              
+saida_mux_jumpreg[5]         : A4        : output : 2.5 V             :         : 8         : N              
+VCCIO8                       : A5        : power  :                   : 2.5V    : 8         :                
+lo[18]                       : A6        : output : 2.5 V             :         : 8         : N              
+saida_mux_branch[7]          : A7        : output : 2.5 V             :         : 8         : N              
+saida_ula[2]                 : A8        : output : 2.5 V             :         : 8         : N              
+VCCIO8                       : A9        : power  :                   : 2.5V    : 8         :                
+saida_ula[5]                 : A10       : output : 2.5 V             :         : 8         : N              
+saida_ula[1]                 : A11       : output : 2.5 V             :         : 8         : N              
+RegDest                      : A12       : output : 2.5 V             :         : 8         : N              
+VCCIO8                       : A13       : power  :                   : 2.5V    : 8         :                
+GND+                         : A14       :        :                   :         : 8         :                
+GND+                         : A15       :        :                   :         : 7         :                
+VCCIO7                       : A16       : power  :                   : 2.5V    : 7         :                
+saida_mux_escrita[18]        : A17       : output : 2.5 V             :         : 7         : N              
+saida_mux_branch[1]          : A18       : output : 2.5 V             :         : 7         : N              
+saida_pc[11]                 : A19       : output : 2.5 V             :         : 7         : N              
+VCCIO7                       : A20       : power  :                   : 2.5V    : 7         :                
+saida_mux_branch[29]         : A21       : output : 2.5 V             :         : 7         : N              
+saida_mux_branch[18]         : A22       : output : 2.5 V             :         : 7         : N              
+saida_mux_escrita[12]        : A23       : output : 2.5 V             :         : 7         : N              
+VCCIO7                       : A24       : power  :                   : 2.5V    : 7         :                
+saida_mux_branch[6]          : A25       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A26       :        :                   :         : 7         :                
+VCCIO7                       : A27       : power  :                   : 2.5V    : 7         :                
+VCCIO2                       : AA1       : power  :                   : 2.5V    : 2         :                
+GND                          : AA2       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA3       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA4       :        :                   :         : 2         :                
+saida_mux_jumpreg[14]        : AA5       : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA6       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA7       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA8       :        :                   :         : 2         :                
+GNDA1                        : AA9       : gnd    :                   :         :           :                
+hi[22]                       : AA10      : output : 2.5 V             :         : 3         : N              
+VCCIO3                       : AA11      : power  :                   : 2.5V    : 3         :                
+hi[3]                        : AA12      : output : 2.5 V             :         : 3         : N              
+lo[6]                        : AA13      : output : 2.5 V             :         : 3         : N              
+dado2_ula[21]                : AA14      : output : 2.5 V             :         : 3         : N              
+saida_mux_escrita[0]         : AA15      : output : 2.5 V             :         : 4         : N              
+lo[4]                        : AA16      : output : 2.5 V             :         : 4         : N              
+lo[3]                        : AA17      : output : 2.5 V             :         : 4         : N              
+VCCIO4                       : AA18      : power  :                   : 2.5V    : 4         :                
+saida_mux_jumpreg[13]        : AA19      : output : 2.5 V             :         : 4         : N              
+GNDA4                        : AA20      : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA21      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA22      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA23      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA24      :        :                   :         : 5         :                
+hi[26]                       : AA25      : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA26      :        :                   :         : 5         :                
+GND                          : AA27      : gnd    :                   :         :           :                
+VCCIO5                       : AA28      : power  :                   : 2.5V    : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB1       :        :                   :         : 2         :                
+hi[31]                       : AB2       : output : 2.5 V             :         : 2         : N              
+saida_md[0]                  : AB3       : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB4       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB5       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB6       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB7       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB8       :        :                   :         : 2         :                
+saida_md[14]                 : AB9       : output : 2.5 V             :         : 3         : N              
+VCCIO3                       : AB10      : power  :                   : 2.5V    : 3         :                
+saida_md[28]                 : AB11      : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB12      :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB13      :        :                   :         : 3         :                
+lo[2]                        : AB14      : output : 2.5 V             :         : 3         : N              
+lo[9]                        : AB15      : output : 2.5 V             :         : 4         : N              
+dado2_ula[18]                : AB16      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB17      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB18      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB19      :        :                   :         : 4         :                
+saida_md[26]                 : AB20      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB21      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB22      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB23      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB24      :        :                   :         : 5         :                
+leitura1[0]                  : AB25      : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB26      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB27      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB28      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC1       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC2       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC3       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC4       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC5       :        :                   :         : 2         :                
+GND                          : AC6       : gnd    :                   :         :           :                
+saida_mux_jumpreg[18]        : AC7       : output : 2.5 V             :         : 2         : N              
+lo[8]                        : AC8       : output : 2.5 V             :         : 3         : N              
+GND                          : AC9       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC10      :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC11      :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC12      :        :                   :         : 3         :                
+GND                          : AC13      : gnd    :                   :         :           :                
+lo[13]                       : AC14      : output : 2.5 V             :         : 3         : N              
+lo[1]                        : AC15      : output : 2.5 V             :         : 4         : N              
+GND                          : AC16      : gnd    :                   :         :           :                
+dado2_ula[31]                : AC17      : output : 2.5 V             :         : 4         : N              
+saida_mux_jumpreg[3]         : AC18      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC19      :        :                   :         : 4         :                
+GND                          : AC20      : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC21      :        :                   :         : 4         :                
+saida_md[3]                  : AC22      : output : 2.5 V             :         : 4         : N              
+GND                          : AC23      : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC24      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC25      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC26      :        :                   :         : 5         :                
+dado2_ula[23]                : AC27      : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC28      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD1       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD2       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD3       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD4       :        :                   :         : 2         :                
+saida_mux_jumpreg[20]        : AD5       : output : 2.5 V             :         : 2         : N              
+VCCIO3                       : AD6       : power  :                   : 2.5V    : 3         :                
+saida_md[1]                  : AD7       : output : 2.5 V             :         : 3         : N              
+saida_md[17]                 : AD8       : output : 2.5 V             :         : 3         : N              
+VCCIO3                       : AD9       : power  :                   : 2.5V    : 3         :                
+saida_mux_jumpreg[10]        : AD10      : output : 2.5 V             :         : 3         : N              
+saida_md[12]                 : AD11      : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD12      :        :                   :         : 3         :                
+VCCIO3                       : AD13      : power  :                   : 2.5V    : 3         :                
+hi[17]                       : AD14      : output : 2.5 V             :         : 3         : N              
+hi[30]                       : AD15      : output : 2.5 V             :         : 4         : N              
+VCCIO4                       : AD16      : power  :                   : 2.5V    : 4         :                
+dado2_ula[27]                : AD17      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD18      :        :                   :         : 4         :                
+saida_mux_regd[3]            : AD19      : output : 2.5 V             :         : 4         : N              
+VCCIO4                       : AD20      : power  :                   : 2.5V    : 4         :                
+saida_md[4]                  : AD21      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD22      :        :                   :         : 4         :                
+VCCIO4                       : AD23      : power  :                   : 2.5V    : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD24      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD25      :        :                   :         : 5         :                
+hi[16]                       : AD26      : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD27      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD28      :        :                   :         : 5         :                
+saida_md[16]                 : AE1       : output : 2.5 V             :         : 2         : N              
+saida_mux_jumpreg[9]         : AE2       : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE3       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE4       :        :                   :         : 2         :                
+hi[15]                       : AE5       : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE6       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE7       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE8       :        :                   :         : 3         :                
+hi[29]                       : AE9       : output : 2.5 V             :         : 3         : N              
+dado2_ula[16]                : AE10      : output : 2.5 V             :         : 3         : N              
+dado2_ula[24]                : AE11      : output : 2.5 V             :         : 3         : N              
+hi[24]                       : AE12      : output : 2.5 V             :         : 3         : N              
+hi[2]                        : AE13      : output : 2.5 V             :         : 3         : N              
+hi[13]                       : AE14      : output : 2.5 V             :         : 3         : N              
+saida_ula[17]                : AE15      : output : 2.5 V             :         : 4         : N              
+saida_mux_escrita[17]        : AE16      : output : 2.5 V             :         : 4         : N              
+dado2_ula[19]                : AE17      : output : 2.5 V             :         : 4         : N              
+saida_mux_branch[9]          : AE18      : output : 2.5 V             :         : 4         : N              
+saida_mux_branch[31]         : AE19      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE20      :        :                   :         : 4         :                
+leitura1[28]                 : AE21      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE22      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE23      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE24      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE25      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE26      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE27      :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE28      :        :                   :         : 5         :                
+GND                          : AF1       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF2       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF3       :        :                   :         : 2         :                
+saida_mux_jumpreg[15]        : AF4       : output : 2.5 V             :         : 3         : N              
+saida_md[8]                  : AF5       : output : 2.5 V             :         : 3         : N              
+hi[5]                        : AF6       : output : 2.5 V             :         : 3         : N              
+lo[27]                       : AF7       : output : 2.5 V             :         : 3         : N              
+hi[19]                       : AF8       : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF9       :        :                   :         : 3         :                
+leitura1[23]                 : AF10      : output : 2.5 V             :         : 3         : N              
+lo[29]                       : AF11      : output : 2.5 V             :         : 3         : N              
+leitura1[20]                 : AF12      : output : 2.5 V             :         : 3         : N              
+hi[28]                       : AF13      : output : 2.5 V             :         : 3         : N              
+saida_ula[4]                 : AF14      : output : 2.5 V             :         : 3         : N              
+hi[12]                       : AF15      : output : 2.5 V             :         : 4         : N              
+saida_md[19]                 : AF16      : output : 2.5 V             :         : 4         : N              
+leitura1[18]                 : AF17      : output : 2.5 V             :         : 4         : N              
+lo[30]                       : AF18      : output : 2.5 V             :         : 4         : N              
+saida_md[2]                  : AF19      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF20      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF21      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF22      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF23      :        :                   :         : 4         :                
+leitura1[19]                 : AF24      : output : 2.5 V             :         : 4         : N              
+dado2_ula[29]                : AF25      : output : 2.5 V             :         : 4         : N              
+saida_md[9]                  : AF26      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF27      :        :                   :         : 5         :                
+GND                          : AF28      : gnd    :                   :         :           :                
+VCCIO2                       : AG1       : power  :                   : 2.5V    : 2         :                
+GND                          : AG2       : gnd    :                   :         :           :                
+saida_md[31]                 : AG3       : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG4       :        :                   :         : 3         :                
+GND                          : AG5       : gnd    :                   :         :           :                
+saida_md[27]                 : AG6       : output : 2.5 V             :         : 3         : N              
+saida_mux_regd[4]            : AG7       : output : 2.5 V             :         : 3         : N              
+hi[21]                       : AG8       : output : 2.5 V             :         : 3         : N              
+GND                          : AG9       : gnd    :                   :         :           :                
+dado2_ula[20]                : AG10      : output : 2.5 V             :         : 3         : N              
+hi[9]                        : AG11      : output : 2.5 V             :         : 3         : N              
+hi[1]                        : AG12      : output : 2.5 V             :         : 3         : N              
+GND                          : AG13      : gnd    :                   :         :           :                
+GND+                         : AG14      :        :                   :         : 3         :                
+GND+                         : AG15      :        :                   :         : 4         :                
+GND                          : AG16      : gnd    :                   :         :           :                
+saida_mux_jumpreg[19]        : AG17      : output : 2.5 V             :         : 4         : N              
+hi[11]                       : AG18      : output : 2.5 V             :         : 4         : N              
+dado2_ula[30]                : AG19      : output : 2.5 V             :         : 4         : N              
+GND                          : AG20      : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG21      :        :                   :         : 4         :                
+saida_mux_branch[25]         : AG22      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG23      :        :                   :         : 4         :                
+GND                          : AG24      : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG25      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG26      :        :                   :         : 4         :                
+GND                          : AG27      : gnd    :                   :         :           :                
+VCCIO5                       : AG28      : power  :                   : 2.5V    : 5         :                
+VCCIO3                       : AH2       : power  :                   : 2.5V    : 3         :                
+hi[20]                       : AH3       : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH4       :        :                   :         : 3         :                
+VCCIO3                       : AH5       : power  :                   : 2.5V    : 3         :                
+dado2_ula[5]                 : AH6       : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH7       :        :                   :         : 3         :                
+leitura1[13]                 : AH8       : output : 2.5 V             :         : 3         : N              
+VCCIO3                       : AH9       : power  :                   : 2.5V    : 3         :                
+hi[6]                        : AH10      : output : 2.5 V             :         : 3         : N              
+hi[4]                        : AH11      : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH12      :        :                   :         : 3         :                
+VCCIO3                       : AH13      : power  :                   : 2.5V    : 3         :                
+GND+                         : AH14      :        :                   :         : 3         :                
+GND+                         : AH15      :        :                   :         : 4         :                
+VCCIO4                       : AH16      : power  :                   : 2.5V    : 4         :                
+hi[7]                        : AH17      : output : 2.5 V             :         : 4         : N              
+lo[12]                       : AH18      : output : 2.5 V             :         : 4         : N              
+leitura1[4]                  : AH19      : output : 2.5 V             :         : 4         : N              
+VCCIO4                       : AH20      : power  :                   : 2.5V    : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH21      :        :                   :         : 4         :                
+saida_md[24]                 : AH22      : output : 2.5 V             :         : 4         : N              
+dado2_ula[26]                : AH23      : output : 2.5 V             :         : 4         : N              
+VCCIO4                       : AH24      : power  :                   : 2.5V    : 4         :                
+saida_ula[25]                : AH25      : output : 2.5 V             :         : 4         : N              
+saida_md[22]                 : AH26      : output : 2.5 V             :         : 4         : N              
+VCCIO4                       : AH27      : power  :                   : 2.5V    : 4         :                
+VCCIO1                       : B1        : power  :                   : 2.5V    : 1         :                
+GND                          : B2        : gnd    :                   :         :           :                
+lo[5]                        : B3        : output : 2.5 V             :         : 8         : N              
+saida_md[21]                 : B4        : output : 2.5 V             :         : 8         : N              
+GND                          : B5        : gnd    :                   :         :           :                
+saida_mux_escrita[8]         : B6        : output : 2.5 V             :         : 8         : N              
+leitura1[25]                 : B7        : output : 2.5 V             :         : 8         : N              
+saida_ula[10]                : B8        : output : 2.5 V             :         : 8         : N              
+GND                          : B9        : gnd    :                   :         :           :                
+saida_mux_escrita[26]        : B10       : output : 2.5 V             :         : 8         : N              
+saida_mux_escrita[2]         : B11       : output : 2.5 V             :         : 8         : N              
+GND                          : B12       : gnd    :                   :         :           :                
+GND                          : B13       : gnd    :                   :         :           :                
+GND+                         : B14       :        :                   :         : 8         :                
+GND+                         : B15       :        :                   :         : 7         :                
+GND                          : B16       : gnd    :                   :         :           :                
+saida_mux_jumpreg[16]        : B17       : output : 2.5 V             :         : 7         : N              
+saida_mux_jump[8]            : B18       : output : 2.5 V             :         : 7         : N              
+saida_mux_escrita[30]        : B19       : output : 2.5 V             :         : 7         : N              
+GND                          : B20       : gnd    :                   :         :           :                
+saida_pc[28]                 : B21       : output : 2.5 V             :         : 7         : N              
+saida_mux_branch[13]         : B22       : output : 2.5 V             :         : 7         : N              
+saida_mux_escrita[5]         : B23       : output : 2.5 V             :         : 7         : N              
+GND                          : B24       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B25       :        :                   :         : 7         :                
+saida_ula[30]                : B26       : output : 2.5 V             :         : 7         : N              
+GND                          : B27       : gnd    :                   :         :           :                
+VCCIO6                       : B28       : power  :                   : 2.5V    : 6         :                
+GND                          : C1        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C2        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C3        :        :                   :         : 8         :                
+saida_mux_jumpreg[4]         : C4        : output : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C5        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C6        :        :                   :         : 8         :                
+saida_mux_jumpreg[23]        : C7        : output : 2.5 V             :         : 8         : N              
+hi[14]                       : C8        : output : 2.5 V             :         : 8         : N              
+saida_mux_escrita[19]        : C9        : output : 2.5 V             :         : 8         : N              
+saida_ula[24]                : C10       : output : 2.5 V             :         : 8         : N              
+saida_ula[19]                : C11       : output : 2.5 V             :         : 8         : N              
+saida_ula[15]                : C12       : output : 2.5 V             :         : 8         : N              
+saida_mux_escrita[6]         : C13       : output : 2.5 V             :         : 8         : N              
+saida_ula[6]                 : C14       : output : 2.5 V             :         : 8         : N              
+saida_pc[0]                  : C15       : output : 2.5 V             :         : 7         : N              
+saida_pc[3]                  : C16       : output : 2.5 V             :         : 7         : N              
+saida_pc[16]                 : C17       : output : 2.5 V             :         : 7         : N              
+saida_mux_branch[15]         : C18       : output : 2.5 V             :         : 7         : N              
+saida_pc[26]                 : C19       : output : 2.5 V             :         : 7         : N              
+saida_mux_jump[15]           : C20       : output : 2.5 V             :         : 7         : N              
+saida_pc[31]                 : C21       : output : 2.5 V             :         : 7         : N              
+saida_mux_jumpreg[2]         : C22       : output : 2.5 V             :         : 7         : N              
+saida_ula[7]                 : C23       : output : 2.5 V             :         : 7         : N              
+saida_pc[24]                 : C24       : output : 2.5 V             :         : 7         : N              
+saida_mux_branch[11]         : C25       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C26       :        :                   :         : 6         :                
+saida_pc[30]                 : C27       : output : 2.5 V             :         : 6         : N              
+GND                          : C28       : gnd    :                   :         :           :                
+saida_md[30]                 : D1        : output : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D2        :        :                   :         : 1         :                
+GND                          : D3        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D4        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D5        :        :                   :         : 8         :                
+saida_ula[28]                : D6        : output : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D7        :        :                   :         : 8         :                
+lo[25]                       : D8        : output : 2.5 V             :         : 8         : N              
+lo[20]                       : D9        : output : 2.5 V             :         : 8         : N              
+saida_mux_escrita[21]        : D10       : output : 2.5 V             :         : 8         : N              
+saida_mux_escrita[11]        : D11       : output : 2.5 V             :         : 8         : N              
+saida_mux_escrita[24]        : D12       : output : 2.5 V             :         : 8         : N              
+saida_mux_escrita[1]         : D13       : output : 2.5 V             :         : 8         : N              
+saida_mux_regd[0]            : D14       : output : 2.5 V             :         : 8         : N              
+saida_mux_jumpreg[12]        : D15       : output : 2.5 V             :         : 7         : N              
+saida_ula[18]                : D16       : output : 2.5 V             :         : 7         : N              
+saida_pc[12]                 : D17       : output : 2.5 V             :         : 7         : N              
+saida_pc[9]                  : D18       : output : 2.5 V             :         : 7         : N              
+saida_mux_jump[27]           : D19       : output : 2.5 V             :         : 7         : N              
+saida_pc[15]                 : D20       : output : 2.5 V             :         : 7         : N              
+saida_mux_branch[19]         : D21       : output : 2.5 V             :         : 7         : N              
+saida_md[20]                 : D22       : output : 2.5 V             :         : 7         : N              
+lo[26]                       : D23       : output : 2.5 V             :         : 7         : N              
+saida_mux_jump[6]            : D24       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D25       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D26       :        :                   :         : 6         :                
+saida_mux_jumpreg[21]        : D27       : output : 2.5 V             :         : 6         : N              
+saida_mux_jump[12]           : D28       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E1        :        :                   :         : 1         :                
+~ALTERA_FLASH_nCE_nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : E2        : input  : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E3        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E4        :        :                   :         : 1         :                
+saida_mux_jumpreg[6]         : E5        : output : 2.5 V             :         : 1         : N              
+VCCIO8                       : E6        : power  :                   : 2.5V    : 8         :                
+saida_mux_jumpreg[22]        : E7        : output : 2.5 V             :         : 8         : N              
+leitura1[22]                 : E8        : output : 2.5 V             :         : 8         : N              
+VCCIO8                       : E9        : power  :                   : 2.5V    : 8         :                
+dado2_ula[2]                 : E10       : output : 2.5 V             :         : 8         : N              
+leitura1[12]                 : E11       : output : 2.5 V             :         : 8         : N              
+saida_mux_escrita[10]        : E12       : output : 2.5 V             :         : 8         : N              
+VCCIO8                       : E13       : power  :                   : 2.5V    : 8         :                
+saida_ula[16]                : E14       : output : 2.5 V             :         : 8         : N              
+saida_pc[2]                  : E15       : output : 2.5 V             :         : 7         : N              
+VCCIO7                       : E16       : power  :                   : 2.5V    : 7         :                
+saida_mux_branch[24]         : E17       : output : 2.5 V             :         : 7         : N              
+saida_mux_jump[5]            : E18       : output : 2.5 V             :         : 7         : N              
+saida_mux_branch[10]         : E19       : output : 2.5 V             :         : 7         : N              
+VCCIO7                       : E20       : power  :                   : 2.5V    : 7         :                
+leitura1[21]                 : E21       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E22       :        :                   :         : 7         :                
+VCCIO7                       : E23       : power  :                   : 2.5V    : 7         :                
+saida_pc[8]                  : E24       : output : 2.5 V             :         : 6         : N              
+saida_mux_jump[28]           : E25       : output : 2.5 V             :         : 6         : N              
+saida_mux_jump[7]            : E26       : output : 2.5 V             :         : 6         : N              
+saida_mux_jumpreg[11]        : E27       : output : 2.5 V             :         : 6         : N              
+saida_pc[20]                 : E28       : output : 2.5 V             :         : 6         : N              
+hi[25]                       : F1        : output : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F2        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F3        :        :                   :         : 1         :                
+~ALTERA_ASDO_DATA1~ / RESERVED_INPUT_WITH_WEAK_PULLUP : F4        : input  : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F5        :        :                   :         : 1         :                
+GND                          : F6        : gnd    :                   :         :           :                
+lo[15]                       : F7        : output : 2.5 V             :         : 8         : N              
+leitura1[9]                  : F8        : output : 2.5 V             :         : 8         : N              
+GND                          : F9        : gnd    :                   :         :           :                
+saida_mux_escrita[31]        : F10       : output : 2.5 V             :         : 8         : N              
+saida_mux_jumpreg[17]        : F11       : output : 2.5 V             :         : 8         : N              
+saida_mux_escrita[15]        : F12       : output : 2.5 V             :         : 8         : N              
+GND                          : F13       : gnd    :                   :         :           :                
+saida_mux_escrita[3]         : F14       : output : 2.5 V             :         : 8         : N              
+saida_pc[22]                 : F15       : output : 2.5 V             :         : 7         : N              
+GND                          : F16       : gnd    :                   :         :           :                
+saida_mux_branch[30]         : F17       : output : 2.5 V             :         : 7         : N              
+saida_mux_escrita[9]         : F18       : output : 2.5 V             :         : 7         : N              
+saida_mux_branch[23]         : F19       : output : 2.5 V             :         : 7         : N              
+GND                          : F20       : gnd    :                   :         :           :                
+saida_mux_escrita[23]        : F21       : output : 2.5 V             :         : 7         : N              
+lo[22]                       : F22       : output : 2.5 V             :         : 7         : N              
+GND                          : F23       : gnd    :                   :         :           :                
+saida_ula[11]                : F24       : output : 2.5 V             :         : 6         : N              
+saida_mux_jump[16]           : F25       : output : 2.5 V             :         : 6         : N              
+saida_mux_jump[22]           : F26       : output : 2.5 V             :         : 6         : N              
+saida_mux_jump[25]           : F27       : output : 2.5 V             :         : 6         : N              
+saida_ula[9]                 : F28       : output : 2.5 V             :         : 6         : N              
+saida_ula[0]                 : G1        : output : 2.5 V             :         : 1         : N              
+saida_mux_branch[22]         : G2        : output : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : G3        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G4        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G5        :        :                   :         : 1         :                
+saida_mux_jumpreg[24]        : G6        : output : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : G7        :        :                   :         : 1         :                
+saida_ula[31]                : G8        : output : 2.5 V             :         : 8         : N              
+saida_ula[14]                : G9        : output : 2.5 V             :         : 8         : N              
+dado2_ula[1]                 : G10       : output : 2.5 V             :         : 8         : N              
+lo[31]                       : G11       : output : 2.5 V             :         : 8         : N              
+saida_mux_escrita[28]        : G12       : output : 2.5 V             :         : 8         : N              
+saida_mux_escrita[27]        : G13       : output : 2.5 V             :         : 8         : N              
+saida_mux_escrita[22]        : G14       : output : 2.5 V             :         : 8         : N              
+saida_pc[27]                 : G15       : output : 2.5 V             :         : 7         : N              
+saida_pc[13]                 : G16       : output : 2.5 V             :         : 7         : N              
+saida_pc[19]                 : G17       : output : 2.5 V             :         : 7         : N              
+saida_pc[29]                 : G18       : output : 2.5 V             :         : 7         : N              
+lo[24]                       : G19       : output : 2.5 V             :         : 7         : N              
+saida_mux_escrita[7]         : G20       : output : 2.5 V             :         : 7         : N              
+saida_mux_branch[2]          : G21       : output : 2.5 V             :         : 7         : N              
+saida_mux_branch[0]          : G22       : output : 2.5 V             :         : 6         : N              
+saida_pc[7]                  : G23       : output : 2.5 V             :         : 6         : N              
+lo[10]                       : G24       : output : 2.5 V             :         : 6         : N              
+saida_mux_jump[18]           : G25       : output : 2.5 V             :         : 6         : N              
+saida_mux_jump[13]           : G26       : output : 2.5 V             :         : 6         : N              
+saida_pc[25]                 : G27       : output : 2.5 V             :         : 6         : N              
+saida_mux_jump[24]           : G28       : output : 2.5 V             :         : 6         : N              
+VCCIO1                       : H1        : power  :                   : 2.5V    : 1         :                
+GND                          : H2        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H3        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H4        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H5        :        :                   :         : 1         :                
+saida_md[25]                 : H6        : output : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : H7        :        :                   :         : 1         :                
+saida_md[10]                 : H8        : output : 2.5 V             :         : 8         : N              
+GNDA3                        : H9        : gnd    :                   :         :           :                
+lo[17]                       : H10       : output : 2.5 V             :         : 8         : N              
+VCCIO8                       : H11       : power  :                   : 2.5V    : 8         :                
+saida_ula[22]                : H12       : output : 2.5 V             :         : 8         : N              
+saida_ula[26]                : H13       : output : 2.5 V             :         : 8         : N              
+saida_mux_jump[2]            : H14       : output : 2.5 V             :         : 7         : N              
+saida_mux_branch[16]         : H15       : output : 2.5 V             :         : 7         : N              
+saida_pc[23]                 : H16       : output : 2.5 V             :         : 7         : N              
+saida_mux_branch[3]          : H17       : output : 2.5 V             :         : 7         : N              
+VCCIO7                       : H18       : power  :                   : 2.5V    : 7         :                
+saida_pc[18]                 : H19       : output : 2.5 V             :         : 7         : N              
+GNDA2                        : H20       : gnd    :                   :         :           :                
+saida_pc[6]                  : H21       : output : 2.5 V             :         : 6         : N              
+saida_mux_jump[17]           : H22       : output : 2.5 V             :         : 6         : N              
+saida_mux_jump[26]           : H23       : output : 2.5 V             :         : 6         : N              
+saida_mux_branch[17]         : H24       : output : 2.5 V             :         : 6         : N              
+saida_pc[21]                 : H25       : output : 2.5 V             :         : 6         : N              
+saida_ula[23]                : H26       : output : 2.5 V             :         : 6         : N              
+GND                          : H27       : gnd    :                   :         :           :                
+VCCIO6                       : H28       : power  :                   : 2.5V    : 6         :                
+clock                        : J1        : input  : 2.5 V             :         : 1         : N              
+GND                          : J2        : gnd    :                   :         :           :                
+saida_ula[27]                : J3        : output : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : J4        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J5        :        :                   :         : 1         :                
+saida_pc[14]                 : J6        : output : 2.5 V             :         : 1         : N              
+saida_ula[29]                : J7        : output : 2.5 V             :         : 1         : N              
+VCCA3                        : J8        : power  :                   : 2.5V    :           :                
+VCCD_PLL3                    : J9        : power  :                   : 1.2V    :           :                
+saida_mux_escrita[13]        : J10       : output : 2.5 V             :         : 8         : N              
+GND                          : J11       : gnd    :                   :         :           :                
+lo[14]                       : J12       : output : 2.5 V             :         : 8         : N              
+VCCIO8                       : J13       : power  :                   : 2.5V    : 8         :                
+saida_pc[1]                  : J14       : output : 2.5 V             :         : 7         : N              
+VCCIO7                       : J15       : power  :                   : 2.5V    : 7         :                
+saida_mux_jump[30]           : J16       : output : 2.5 V             :         : 7         : N              
+saida_mux_jump[4]            : J17       : output : 2.5 V             :         : 7         : N              
+GND                          : J18       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J19       :        :                   :         : 7         :                
+VCCD_PLL2                    : J20       : power  :                   : 1.2V    :           :                
+VCCA2                        : J21       : power  :                   : 2.5V    :           :                
+saida_mux_branch[12]         : J22       : output : 2.5 V             :         : 6         : N              
+saida_mux_branch[27]         : J23       : output : 2.5 V             :         : 6         : N              
+saida_mux_jump[21]           : J24       : output : 2.5 V             :         : 6         : N              
+saida_mux_jump[29]           : J25       : output : 2.5 V             :         : 6         : N              
+saida_mux_branch[8]          : J26       : output : 2.5 V             :         : 6         : N              
+GND+                         : J27       :        :                   :         : 6         :                
+GND+                         : J28       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K1        :        :                   :         : 1         :                
+saida_ula[20]                : K2        : output : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : K3        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K4        :        :                   :         : 1         :                
+VCCIO1                       : K5        : power  :                   : 2.5V    : 1         :                
+GND                          : K6        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K7        :        :                   :         : 1         :                
+VCCIO1                       : K8        : power  :                   : 2.5V    : 1         :                
+VCCINT                       : K9        : power  :                   : 1.2V    :           :                
+GND                          : K10       : gnd    :                   :         :           :                
+VCCINT                       : K11       : power  :                   : 1.2V    :           :                
+GND                          : K12       : gnd    :                   :         :           :                
+saida_mux_escrita[14]        : K13       : output : 2.5 V             :         : 8         : N              
+GND                          : K14       : gnd    :                   :         :           :                
+saida_mux_jump[1]            : K15       : output : 2.5 V             :         : 7         : N              
+GND                          : K16       : gnd    :                   :         :           :                
+VCCINT                       : K17       : power  :                   : 1.2V    :           :                
+GND                          : K18       : gnd    :                   :         :           :                
+VCCINT                       : K19       : power  :                   : 1.2V    :           :                
+GND                          : K20       : gnd    :                   :         :           :                
+saida_mux_branch[20]         : K21       : output : 2.5 V             :         : 6         : N              
+saida_mux_regd[1]            : K22       : output : 2.5 V             :         : 6         : N              
+GND                          : K23       : gnd    :                   :         :           :                
+VCCIO6                       : K24       : power  :                   : 2.5V    : 6         :                
+lo[23]                       : K25       : output : 2.5 V             :         : 6         : N              
+saida_mux_jump[19]           : K26       : output : 2.5 V             :         : 6         : N              
+saida_mux_jump[14]           : K27       : output : 2.5 V             :         : 6         : N              
+saida_pc[10]                 : K28       : output : 2.5 V             :         : 6         : N              
+leitura1[8]                  : L1        : output : 2.5 V             :         : 1         : N              
+lo[19]                       : L2        : output : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : L3        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L4        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L5        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L6        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L7        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L8        :        :                   :         : 1         :                
+GND                          : L9        : gnd    :                   :         :           :                
+VCCINT                       : L10       : power  :                   : 1.2V    :           :                
+GND                          : L11       : gnd    :                   :         :           :                
+VCCINT                       : L12       : power  :                   : 1.2V    :           :                
+GND                          : L13       : gnd    :                   :         :           :                
+VCCINT                       : L14       : power  :                   : 1.2V    :           :                
+GND                          : L15       : gnd    :                   :         :           :                
+VCCINT                       : L16       : power  :                   : 1.2V    :           :                
+GND                          : L17       : gnd    :                   :         :           :                
+VCCINT                       : L18       : power  :                   : 1.2V    :           :                
+GND                          : L19       : gnd    :                   :         :           :                
+saida_mux_branch[21]         : L20       : output : 2.5 V             :         : 6         : N              
+VCCIO6                       : L21       : power  :                   : 2.5V    : 6         :                
+saida_mux_jump[11]           : L22       : output : 2.5 V             :         : 6         : N              
+saida_mux_jumpreg[0]         : L23       : output : 2.5 V             :         : 6         : N              
+saida_mux_jump[9]            : L24       : output : 2.5 V             :         : 6         : N              
+saida_mux_branch[5]          : L25       : output : 2.5 V             :         : 6         : N              
+saida_mux_escrita[25]        : L26       : output : 2.5 V             :         : 6         : N              
+saida_mux_jump[10]           : L27       : output : 2.5 V             :         : 6         : N              
+saida_mux_jump[20]           : L28       : output : 2.5 V             :         : 6         : N              
+saida_mux_escrita[16]        : M1        : output : 2.5 V             :         : 1         : N              
+saida_ula[8]                 : M2        : output : 2.5 V             :         : 1         : N              
+saida_md[7]                  : M3        : output : 2.5 V             :         : 1         : N              
+saida_ula[21]                : M4        : output : 2.5 V             :         : 1         : N              
+saida_ula[3]                 : M5        : output : 2.5 V             :         : 1         : N              
+nSTATUS                      : M6        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M7        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M8        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M9        :        :                   :         : 1         :                
+GND                          : M10       : gnd    :                   :         :           :                
+VCCINT                       : M11       : power  :                   : 1.2V    :           :                
+GND                          : M12       : gnd    :                   :         :           :                
+VCCINT                       : M13       : power  :                   : 1.2V    :           :                
+GND                          : M14       : gnd    :                   :         :           :                
+VCCINT                       : M15       : power  :                   : 1.2V    :           :                
+GND                          : M16       : gnd    :                   :         :           :                
+VCCINT                       : M17       : power  :                   : 1.2V    :           :                
+GND                          : M18       : gnd    :                   :         :           :                
+VCCINT                       : M19       : power  :                   : 1.2V    :           :                
+GND                          : M20       : gnd    :                   :         :           :                
+saida_pc[17]                 : M21       : output : 2.5 V             :         : 6         : N              
+MSEL2                        : M22       :        :                   :         : 6         :                
+lo[21]                       : M23       : output : 2.5 V             :         : 6         : N              
+saida_ula[12]                : M24       : output : 2.5 V             :         : 6         : N              
+saida_mux_jump[31]           : M25       : output : 2.5 V             :         : 6         : N              
+saida_mux_jump[3]            : M26       : output : 2.5 V             :         : 6         : N              
+lo[11]                       : M27       : output : 2.5 V             :         : 6         : N              
+saida_pc[5]                  : M28       : output : 2.5 V             :         : 6         : N              
+VCCIO1                       : N1        : power  :                   : 2.5V    : 1         :                
+GND                          : N2        : gnd    :                   :         :           :                
+saida_mux_escrita[20]        : N3        : output : 2.5 V             :         : 1         : N              
+leitura1[11]                 : N4        : output : 2.5 V             :         : 1         : N              
+VCCIO1                       : N5        : power  :                   : 2.5V    : 1         :                
+GND                          : N6        : gnd    :                   :         :           :                
+~ALTERA_DATA0~ / RESERVED_INPUT_WITH_WEAK_PULLUP : N7        : input  : 2.5 V             :         : 1         : N              
+saida_mux_jumpreg[8]         : N8        : output : 2.5 V             :         : 1         : N              
+GND                          : N9        : gnd    :                   :         :           :                
+VCCINT                       : N10       : power  :                   : 1.2V    :           :                
+GND                          : N11       : gnd    :                   :         :           :                
+VCCINT                       : N12       : power  :                   : 1.2V    :           :                
+GND                          : N13       : gnd    :                   :         :           :                
+VCCINT                       : N14       : power  :                   : 1.2V    :           :                
+GND                          : N15       : gnd    :                   :         :           :                
+VCCINT                       : N16       : power  :                   : 1.2V    :           :                
+GND                          : N17       : gnd    :                   :         :           :                
+VCCINT                       : N18       : power  :                   : 1.2V    :           :                
+GND                          : N19       : gnd    :                   :         :           :                
+VCCINT                       : N20       : power  :                   : 1.2V    :           :                
+saida_mux_branch[14]         : N21       : output : 2.5 V             :         : 6         : N              
+MSEL0                        : N22       :        :                   :         : 6         :                
+GND                          : N23       : gnd    :                   :         :           :                
+VCCIO6                       : N24       : power  :                   : 2.5V    : 6         :                
+saida_mux_jumpreg[1]         : N25       : output : 2.5 V             :         : 6         : N              
+saida_pc[4]                  : N26       : output : 2.5 V             :         : 6         : N              
+GND                          : N27       : gnd    :                   :         :           :                
+VCCIO6                       : N28       : power  :                   : 2.5V    : 6         :                
+saida_mux_escrita[4]         : P1        : output : 2.5 V             :         : 1         : N              
+lo[28]                       : P2        : output : 2.5 V             :         : 1         : N              
+~ALTERA_DCLK~                : P3        : output : 2.5 V             :         : 1         : N              
+nCONFIG                      : P4        :        :                   :         : 1         :                
+TCK                          : P5        : input  :                   :         : 1         :                
+TDO                          : P6        : output :                   :         : 1         :                
+TDI                          : P7        : input  :                   :         : 1         :                
+TMS                          : P8        : input  :                   :         : 1         :                
+VCCINT                       : P9        : power  :                   : 1.2V    :           :                
+GND                          : P10       : gnd    :                   :         :           :                
+VCCINT                       : P11       : power  :                   : 1.2V    :           :                
+GND                          : P12       : gnd    :                   :         :           :                
+VCCINT                       : P13       : power  :                   : 1.2V    :           :                
+GND                          : P14       : gnd    :                   :         :           :                
+VCCINT                       : P15       : power  :                   : 1.2V    :           :                
+GND                          : P16       : gnd    :                   :         :           :                
+VCCINT                       : P17       : power  :                   : 1.2V    :           :                
+GND                          : P18       : gnd    :                   :         :           :                
+VCCINT                       : P19       : power  :                   : 1.2V    :           :                
+GND                          : P20       : gnd    :                   :         :           :                
+lo[7]                        : P21       : output : 2.5 V             :         : 5         : N              
+MSEL3                        : P22       :        :                   :         : 6         :                
+MSEL1                        : P23       :        :                   :         : 6         :                
+CONF_DONE                    : P24       :        :                   :         : 6         :                
+saida_mux_branch[28]         : P25       : output : 2.5 V             :         : 6         : N              
+lo[16]                       : P26       : output : 2.5 V             :         : 6         : N              
+saida_mux_branch[4]          : P27       : output : 2.5 V             :         : 6         : N              
+~ALTERA_nCEO~ / RESERVED_OUTPUT_OPEN_DRAIN : P28       : output : 2.5 V             :         : 6         : N              
+hi[8]                        : R1        : output : 2.5 V             :         : 2         : N              
+leitura1[24]                 : R2        : output : 2.5 V             :         : 2         : N              
+leitura1[6]                  : R3        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R4        :        :                   :         : 2         :                
+leitura1[31]                 : R5        : output : 2.5 V             :         : 2         : N              
+hi[0]                        : R6        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R7        :        :                   :         : 2         :                
+nCE                          : R8        :        :                   :         : 1         :                
+GND                          : R9        : gnd    :                   :         :           :                
+VCCINT                       : R10       : power  :                   : 1.2V    :           :                
+GND                          : R11       : gnd    :                   :         :           :                
+VCCINT                       : R12       : power  :                   : 1.2V    :           :                
+GND                          : R13       : gnd    :                   :         :           :                
+VCCINT                       : R14       : power  :                   : 1.2V    :           :                
+GND                          : R15       : gnd    :                   :         :           :                
+VCCINT                       : R16       : power  :                   : 1.2V    :           :                
+GND                          : R17       : gnd    :                   :         :           :                
+VCCINT                       : R18       : power  :                   : 1.2V    :           :                
+GND                          : R19       : gnd    :                   :         :           :                
+VCCINT                       : R20       : power  :                   : 1.2V    :           :                
+leitura1[3]                  : R21       : output : 2.5 V             :         : 5         : N              
+saida_mux_jump[0]            : R22       : output : 2.5 V             :         : 5         : N              
+leitura1[16]                 : R23       : output : 2.5 V             :         : 5         : N              
+leitura1[17]                 : R24       : output : 2.5 V             :         : 5         : N              
+leitura1[2]                  : R25       : output : 2.5 V             :         : 5         : N              
+dado2_ula[10]                : R26       : output : 2.5 V             :         : 5         : N              
+leitura1[14]                 : R27       : output : 2.5 V             :         : 5         : N              
+leitura1[15]                 : R28       : output : 2.5 V             :         : 5         : N              
+VCCIO2                       : T1        : power  :                   : 2.5V    : 2         :                
+GND                          : T2        : gnd    :                   :         :           :                
+dado2_ula[8]                 : T3        : output : 2.5 V             :         : 2         : N              
+leitura1[27]                 : T4        : output : 2.5 V             :         : 2         : N              
+VCCIO2                       : T5        : power  :                   : 2.5V    : 2         :                
+GND                          : T6        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T7        :        :                   :         : 2         :                
+clock_escrita                : T8        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T9        :        :                   :         : 2         :                
+GND                          : T10       : gnd    :                   :         :           :                
+VCCINT                       : T11       : power  :                   : 1.2V    :           :                
+GND                          : T12       : gnd    :                   :         :           :                
+VCCINT                       : T13       : power  :                   : 1.2V    :           :                
+GND                          : T14       : gnd    :                   :         :           :                
+VCCINT                       : T15       : power  :                   : 1.2V    :           :                
+GND                          : T16       : gnd    :                   :         :           :                
+VCCINT                       : T17       : power  :                   : 1.2V    :           :                
+GND                          : T18       : gnd    :                   :         :           :                
+VCCINT                       : T19       : power  :                   : 1.2V    :           :                
+GND                          : T20       : gnd    :                   :         :           :                
+dado2_ula[4]                 : T21       : output : 2.5 V             :         : 5         : N              
+dado2_ula[0]                 : T22       : output : 2.5 V             :         : 5         : N              
+GND                          : T23       : gnd    :                   :         :           :                
+VCCIO5                       : T24       : power  :                   : 2.5V    : 5         :                
+leitura1[30]                 : T25       : output : 2.5 V             :         : 5         : N              
+saida_mux_jump[23]           : T26       : output : 2.5 V             :         : 5         : N              
+GND                          : T27       : gnd    :                   :         :           :                
+VCCIO5                       : T28       : power  :                   : 2.5V    : 5         :                
+dado2_ula[11]                : U1        : output : 2.5 V             :         : 2         : N              
+dado2_ula[12]                : U2        : output : 2.5 V             :         : 2         : N              
+saida_mux_escrita[29]        : U3        : output : 2.5 V             :         : 2         : N              
+saida_md[6]                  : U4        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : U5        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U6        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U7        :        :                   :         : 2         :                
+saida_md[18]                 : U8        : output : 2.5 V             :         : 2         : N              
+GND                          : U9        : gnd    :                   :         :           :                
+VCCINT                       : U10       : power  :                   : 1.2V    :           :                
+GND                          : U11       : gnd    :                   :         :           :                
+VCCINT                       : U12       : power  :                   : 1.2V    :           :                
+GND                          : U13       : gnd    :                   :         :           :                
+VCCINT                       : U14       : power  :                   : 1.2V    :           :                
+GND                          : U15       : gnd    :                   :         :           :                
+VCCINT                       : U16       : power  :                   : 1.2V    :           :                
+GND                          : U17       : gnd    :                   :         :           :                
+VCCINT                       : U18       : power  :                   : 1.2V    :           :                
+GND                          : U19       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U20       :        :                   :         : 5         :                
+VCCIO5                       : U21       : power  :                   : 2.5V    : 5         :                
+dado2_ula[9]                 : U22       : output : 2.5 V             :         : 5         : N              
+saida_mux_branch[26]         : U23       : output : 2.5 V             :         : 5         : N              
+dado2_ula[22]                : U24       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : U25       :        :                   :         : 5         :                
+saida_mux_jumpreg[7]         : U26       : output : 2.5 V             :         : 5         : N              
+leitura1[1]                  : U27       : output : 2.5 V             :         : 5         : N              
+dado2_ula[28]                : U28       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V1        :        :                   :         : 2         :                
+hi[27]                       : V2        : output : 2.5 V             :         : 2         : N              
+saida_md[29]                 : V3        : output : 2.5 V             :         : 2         : N              
+leitura1[5]                  : V4        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V5        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V6        :        :                   :         : 2         :                
+saida_mux_regd[2]            : V7        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V8        :        :                   :         : 2         :                
+dado2_ula[14]                : V9        : output : 2.5 V             :         : 2         : N              
+GND                          : V10       : gnd    :                   :         :           :                
+VCCINT                       : V11       : power  :                   : 1.2V    :           :                
+GND                          : V12       : gnd    :                   :         :           :                
+VCCINT                       : V13       : power  :                   : 1.2V    :           :                
+GND                          : V14       : gnd    :                   :         :           :                
+VCCINT                       : V15       : power  :                   : 1.2V    :           :                
+GND                          : V16       : gnd    :                   :         :           :                
+VCCINT                       : V17       : power  :                   : 1.2V    :           :                
+GND                          : V18       : gnd    :                   :         :           :                
+VCCINT                       : V19       : power  :                   : 1.2V    :           :                
+dado2_ula[3]                 : V20       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V21       :        :                   :         : 5         :                
+dado2_ula[17]                : V22       : output : 2.5 V             :         : 5         : N              
+leitura1[29]                 : V23       : output : 2.5 V             :         : 5         : N              
+hi[18]                       : V24       : output : 2.5 V             :         : 5         : N              
+leitura1[26]                 : V25       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V26       :        :                   :         : 5         :                
+saida_md[13]                 : V27       : output : 2.5 V             :         : 5         : N              
+leitura1[7]                  : V28       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : W1        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W2        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W3        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W4        :        :                   :         : 2         :                
+VCCIO2                       : W5        : power  :                   : 2.5V    : 2         :                
+GND                          : W6        : gnd    :                   :         :           :                
+VCCIO2                       : W7        : power  :                   : 2.5V    : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W8        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W9        :        :                   :         : 2         :                
+saida_ula[13]                : W10       : output : 2.5 V             :         : 3         : N              
+GND                          : W11       : gnd    :                   :         :           :                
+VCCINT                       : W12       : power  :                   : 1.2V    :           :                
+GND                          : W13       : gnd    :                   :         :           :                
+VCCINT                       : W14       : power  :                   : 1.2V    :           :                
+GND                          : W15       : gnd    :                   :         :           :                
+hi[23]                       : W16       : output : 2.5 V             :         : 4         : N              
+GND                          : W17       : gnd    :                   :         :           :                
+VCCINT                       : W18       : power  :                   : 1.2V    :           :                
+GND                          : W19       : gnd    :                   :         :           :                
+dado2_ula[15]                : W20       : output : 2.5 V             :         : 5         : N              
+saida_md[5]                  : W21       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : W22       :        :                   :         : 5         :                
+GND                          : W23       : gnd    :                   :         :           :                
+VCCIO5                       : W24       : power  :                   : 2.5V    : 5         :                
+dado2_ula[13]                : W25       : output : 2.5 V             :         : 5         : N              
+saida_md[11]                 : W26       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : W27       :        :                   :         : 5         :                
+saida_md[15]                 : W28       : output : 2.5 V             :         : 5         : N              
+GND+                         : Y1        :        :                   :         : 2         :                
+GND+                         : Y2        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y3        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y4        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y5        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y6        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y7        :        :                   :         : 2         :                
+VCCA1                        : Y8        : power  :                   : 2.5V    :           :                
+VCCD_PLL1                    : Y9        : power  :                   : 1.2V    :           :                
+saida_md[23]                 : Y10       : output : 2.5 V             :         : 3         : N              
+GND                          : Y11       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y12       :        :                   :         : 3         :                
+hi[10]                       : Y13       : output : 2.5 V             :         : 3         : N              
+dado2_ula[7]                 : Y14       : output : 2.5 V             :         : 3         : N              
+leitura1[10]                 : Y15       : output : 2.5 V             :         : 3         : N              
+VCCIO4                       : Y16       : power  :                   : 2.5V    : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y17       :        :                   :         : 4         :                
+GND                          : Y18       : gnd    :                   :         :           :                
+lo[0]                        : Y19       : output : 2.5 V             :         : 4         : N              
+VCCD_PLL4                    : Y20       : power  :                   : 1.2V    :           :                
+VCCA4                        : Y21       : power  :                   : 2.5V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y22       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y23       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y24       :        :                   :         : 5         :                
+dado2_ula[25]                : Y25       : output : 2.5 V             :         : 5         : N              
+dado2_ula[6]                 : Y26       : output : 2.5 V             :         : 5         : N              
+GND+                         : Y27       :        :                   :         : 5         :                
+GND+                         : Y28       :        :                   :         : 5         :                

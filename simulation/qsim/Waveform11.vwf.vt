@@ -1,0 +1,379 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "09/23/2020 16:28:32"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          mux_jump
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module mux_jump_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg Jump;
+reg [31:0] saida_concat;
+reg [31:0] saida_mux_branch;
+// wires                                               
+wire [31:0] saida;
+
+// assign statements (if any)                          
+mux_jump i1 (
+// port map - connection between master ports and signals/registers   
+	.Jump(Jump),
+	.saida(saida),
+	.saida_concat(saida_concat),
+	.saida_mux_branch(saida_mux_branch)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// Jump
+initial
+begin
+	Jump = 1'b0;
+	Jump = #140000 1'b1;
+	Jump = #460000 1'b0;
+end 
+// saida_concat[ 31 ]
+initial
+begin
+	saida_concat[31] = 1'b1;
+end 
+// saida_concat[ 30 ]
+initial
+begin
+	saida_concat[30] = 1'b0;
+end 
+// saida_concat[ 29 ]
+initial
+begin
+	saida_concat[29] = 1'b0;
+end 
+// saida_concat[ 28 ]
+initial
+begin
+	saida_concat[28] = 1'b0;
+end 
+// saida_concat[ 27 ]
+initial
+begin
+	saida_concat[27] = 1'b0;
+end 
+// saida_concat[ 26 ]
+initial
+begin
+	saida_concat[26] = 1'b1;
+end 
+// saida_concat[ 25 ]
+initial
+begin
+	saida_concat[25] = 1'b0;
+end 
+// saida_concat[ 24 ]
+initial
+begin
+	saida_concat[24] = 1'b0;
+end 
+// saida_concat[ 23 ]
+initial
+begin
+	saida_concat[23] = 1'b0;
+end 
+// saida_concat[ 22 ]
+initial
+begin
+	saida_concat[22] = 1'b0;
+end 
+// saida_concat[ 21 ]
+initial
+begin
+	saida_concat[21] = 1'b0;
+end 
+// saida_concat[ 20 ]
+initial
+begin
+	saida_concat[20] = 1'b0;
+end 
+// saida_concat[ 19 ]
+initial
+begin
+	saida_concat[19] = 1'b0;
+end 
+// saida_concat[ 18 ]
+initial
+begin
+	saida_concat[18] = 1'b0;
+end 
+// saida_concat[ 17 ]
+initial
+begin
+	saida_concat[17] = 1'b0;
+end 
+// saida_concat[ 16 ]
+initial
+begin
+	saida_concat[16] = 1'b0;
+end 
+// saida_concat[ 15 ]
+initial
+begin
+	saida_concat[15] = 1'b0;
+end 
+// saida_concat[ 14 ]
+initial
+begin
+	saida_concat[14] = 1'b0;
+end 
+// saida_concat[ 13 ]
+initial
+begin
+	saida_concat[13] = 1'b0;
+end 
+// saida_concat[ 12 ]
+initial
+begin
+	saida_concat[12] = 1'b0;
+end 
+// saida_concat[ 11 ]
+initial
+begin
+	saida_concat[11] = 1'b0;
+end 
+// saida_concat[ 10 ]
+initial
+begin
+	saida_concat[10] = 1'b0;
+end 
+// saida_concat[ 9 ]
+initial
+begin
+	saida_concat[9] = 1'b0;
+end 
+// saida_concat[ 8 ]
+initial
+begin
+	saida_concat[8] = 1'b0;
+end 
+// saida_concat[ 7 ]
+initial
+begin
+	saida_concat[7] = 1'b0;
+end 
+// saida_concat[ 6 ]
+initial
+begin
+	saida_concat[6] = 1'b0;
+end 
+// saida_concat[ 5 ]
+initial
+begin
+	saida_concat[5] = 1'b0;
+end 
+// saida_concat[ 4 ]
+initial
+begin
+	saida_concat[4] = 1'b0;
+end 
+// saida_concat[ 3 ]
+initial
+begin
+	saida_concat[3] = 1'b0;
+end 
+// saida_concat[ 2 ]
+initial
+begin
+	saida_concat[2] = 1'b0;
+end 
+// saida_concat[ 1 ]
+initial
+begin
+	saida_concat[1] = 1'b0;
+end 
+// saida_concat[ 0 ]
+initial
+begin
+	saida_concat[0] = 1'b1;
+end 
+// saida_mux_branch[ 31 ]
+initial
+begin
+	saida_mux_branch[31] = 1'b1;
+end 
+// saida_mux_branch[ 30 ]
+initial
+begin
+	saida_mux_branch[30] = 1'b1;
+end 
+// saida_mux_branch[ 29 ]
+initial
+begin
+	saida_mux_branch[29] = 1'b1;
+end 
+// saida_mux_branch[ 28 ]
+initial
+begin
+	saida_mux_branch[28] = 1'b1;
+end 
+// saida_mux_branch[ 27 ]
+initial
+begin
+	saida_mux_branch[27] = 1'b1;
+end 
+// saida_mux_branch[ 26 ]
+initial
+begin
+	saida_mux_branch[26] = 1'b1;
+end 
+// saida_mux_branch[ 25 ]
+initial
+begin
+	saida_mux_branch[25] = 1'b1;
+end 
+// saida_mux_branch[ 24 ]
+initial
+begin
+	saida_mux_branch[24] = 1'b1;
+end 
+// saida_mux_branch[ 23 ]
+initial
+begin
+	saida_mux_branch[23] = 1'b1;
+end 
+// saida_mux_branch[ 22 ]
+initial
+begin
+	saida_mux_branch[22] = 1'b1;
+end 
+// saida_mux_branch[ 21 ]
+initial
+begin
+	saida_mux_branch[21] = 1'b1;
+end 
+// saida_mux_branch[ 20 ]
+initial
+begin
+	saida_mux_branch[20] = 1'b1;
+end 
+// saida_mux_branch[ 19 ]
+initial
+begin
+	saida_mux_branch[19] = 1'b1;
+end 
+// saida_mux_branch[ 18 ]
+initial
+begin
+	saida_mux_branch[18] = 1'b1;
+end 
+// saida_mux_branch[ 17 ]
+initial
+begin
+	saida_mux_branch[17] = 1'b1;
+end 
+// saida_mux_branch[ 16 ]
+initial
+begin
+	saida_mux_branch[16] = 1'b1;
+end 
+// saida_mux_branch[ 15 ]
+initial
+begin
+	saida_mux_branch[15] = 1'b1;
+end 
+// saida_mux_branch[ 14 ]
+initial
+begin
+	saida_mux_branch[14] = 1'b1;
+end 
+// saida_mux_branch[ 13 ]
+initial
+begin
+	saida_mux_branch[13] = 1'b1;
+end 
+// saida_mux_branch[ 12 ]
+initial
+begin
+	saida_mux_branch[12] = 1'b1;
+end 
+// saida_mux_branch[ 11 ]
+initial
+begin
+	saida_mux_branch[11] = 1'b1;
+end 
+// saida_mux_branch[ 10 ]
+initial
+begin
+	saida_mux_branch[10] = 1'b1;
+end 
+// saida_mux_branch[ 9 ]
+initial
+begin
+	saida_mux_branch[9] = 1'b1;
+end 
+// saida_mux_branch[ 8 ]
+initial
+begin
+	saida_mux_branch[8] = 1'b1;
+end 
+// saida_mux_branch[ 7 ]
+initial
+begin
+	saida_mux_branch[7] = 1'b1;
+end 
+// saida_mux_branch[ 6 ]
+initial
+begin
+	saida_mux_branch[6] = 1'b1;
+end 
+// saida_mux_branch[ 5 ]
+initial
+begin
+	saida_mux_branch[5] = 1'b1;
+end 
+// saida_mux_branch[ 4 ]
+initial
+begin
+	saida_mux_branch[4] = 1'b1;
+end 
+// saida_mux_branch[ 3 ]
+initial
+begin
+	saida_mux_branch[3] = 1'b1;
+end 
+// saida_mux_branch[ 2 ]
+initial
+begin
+	saida_mux_branch[2] = 1'b1;
+end 
+// saida_mux_branch[ 1 ]
+initial
+begin
+	saida_mux_branch[1] = 1'b0;
+end 
+// saida_mux_branch[ 0 ]
+initial
+begin
+	saida_mux_branch[0] = 1'b0;
+end 
+endmodule
+

@@ -1,0 +1,45 @@
+Quartus Prime Archive log --	/home/beatriz/Documentos/processador/processador.qarlog
+
+Archive:	/home/beatriz/Documentos/processador/processador.qar
+Date:		Tue Oct 20 17:44:21 2020
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/beatriz/Documentos/processador/PC.v
+/home/beatriz/Documentos/processador/ULA.v
+/home/beatriz/Documentos/processador/Waveform.vwf
+/home/beatriz/Documentos/processador/Waveform1.vwf
+/home/beatriz/Documentos/processador/Waveform3.vwf
+/home/beatriz/Documentos/processador/Waveform4.vwf
+/home/beatriz/Documentos/processador/Waveform5.vwf
+/home/beatriz/Documentos/processador/Waveform6.vwf
+/home/beatriz/Documentos/processador/Waveform7.vwf
+/home/beatriz/Documentos/processador/add.v
+/home/beatriz/Documentos/processador/banco_regs.v
+/home/beatriz/Documentos/processador/branch_decision.v
+/home/beatriz/Documentos/processador/concat.v
+/home/beatriz/Documentos/processador/controle.v
+/home/beatriz/Documentos/processador/divfreq.v
+/home/beatriz/Documentos/processador/extensor_sinal.v
+/home/beatriz/Documentos/processador/mem_dados.v
+/home/beatriz/Documentos/processador/mem_instrucao.v
+/home/beatriz/Documentos/processador/mux_branch.v
+/home/beatriz/Documentos/processador/mux_escrita.v
+/home/beatriz/Documentos/processador/mux_jump.v
+/home/beatriz/Documentos/processador/mux_jumpreg.v
+/home/beatriz/Documentos/processador/mux_regd.v
+/home/beatriz/Documentos/processador/mux_ula.v
+/home/beatriz/Documentos/processador/processador.qpf
+/home/beatriz/Documentos/processador/processador.qsf
+/home/beatriz/Documentos/processador/processador.v
+/home/beatriz/intelFPGA/18.0/quartus/linux64/assignment_defaults.qdf
+	======= Total: 28 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Tue Oct 20 17:59:54 2020
+Source archive file:	/home/beatriz/Documentos/processador/processador.qar
+Archive was extracted into	/home/beatriz/Documentos/
+		 - successfully.
